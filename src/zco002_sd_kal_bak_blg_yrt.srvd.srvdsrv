@@ -1,0 +1,4 @@
+@EndUserText.label: 'Kapanış Kalan Bakiye Belge Yaratma Service Definition'
+define service ZCO002_SD_KAL_BAK_BLG_YRT {
+  expose ZCO002_PV_KAL_BAK_BLG_YRT;
+}

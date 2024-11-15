@@ -1,0 +1,43 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'BakiyeHesapBakMTabl', 
+    typeNamePlural: 'BakiyeHesapBakMTabls', 
+    title: {
+      type: #STANDARD, 
+      label: 'Bakiye Hesap Bakım Tablosu', 
+      value: 'SaknrLow'
+    }
+  }
+}
+annotate view ZI_BakiyeHesapBakMTabl with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'CopyBakiyeHesapBakMTabl', 
+    label: 'Copy Selected Entry', 
+    invocationGrouping: #CHANGE_SET
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_BakiyeHesapBakMTabl', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Bakiye Hesap Bakım Tablosu', 
+    position: 1 
+  } ]
+  SaknrLow;
+  
+  @UI.identification: [ {
+    position: 2 
+  } ]
+  @UI.lineItem: [ {
+    position: 2 
+  } ]
+  SaknrHigh;
+}

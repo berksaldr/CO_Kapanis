@@ -1,0 +1,9 @@
+@Metadata.layer: #CORE
+annotate entity zco002_dd_log_kayit_param with
+{
+  @Consumption.valueHelpDefinition: [{ entity.name: 'I_CompanyCodeVH',entity.element: 'CompanyCode' }]
+  companycode;
+  @Consumption.valueHelpDefinition: [{ entity.name: 'ZCO002_DD_FISCALPERIOD',entity.element: 'FiscalYearPeriod' }]
+  FiscalYearPeriod;
+
+}

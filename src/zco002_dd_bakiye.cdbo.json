@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Bakiye Customer Data Browser",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZCO002_DD_BAKIYE"
+  },
+  "fields": [
+    {
+      "name": "COSTCENTER",
+      "nature": "general"
+    },
+    {
+      "name": "ORDERID",
+      "nature": "general"
+    },
+    {
+      "name": "FISCALYEARPERIOD",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANYCODE",
+      "nature": "general"
+    },
+    {
+      "name": "CONFIRMATIONYIELDQUANTITY",
+      "nature": "general"
+    },
+    {
+      "name": "MEINH",
+      "nature": "general"
+    },
+    {
+      "name": "AMOUNTINCOMPANYCODECURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANYCODECURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "AMOUNTINGLOBALCURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "GLOBALCURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "STATUS",
+      "nature": "general"
+    },
+    {
+      "name": "ACCDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "ACCDOCUMENTEUR",
+      "nature": "general"
+    },
+    {
+      "name": "REVERSEDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "REVERSEDOCUMENTEUR",
+      "nature": "general"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_BakiyeHesapBakMTabl_S'
+define service ZUI_BAKIYEHESAPBAKMTABL {
+  expose ZI_BAKIYEHESAPBAKMTABL_S as BakiyeHesapBakMTAll;
+  expose ZI_BAKIYEHESAPBAKMTABL as BakiyeHesapBakMTabl;
+}

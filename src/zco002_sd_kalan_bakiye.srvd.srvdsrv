@@ -1,0 +1,4 @@
+@EndUserText.label: 'Kalan Bakiye Dağıtma Service Definition'
+define service ZCO002_SD_KALAN_BAKIYE {
+  expose zco002_cev_kalan_bakiye;
+}

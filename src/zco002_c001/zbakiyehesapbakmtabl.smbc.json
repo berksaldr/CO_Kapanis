@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain Bakiye Hesap Bakım Tablosu",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_BAKIYEHESAPBAKMTABL_O4",
+    "serviceName": "ZUI_BAKIYEHESAPBAKMTABL_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "BakiyeHesapBakMTAll",
+    "name": "Bakiye Hesap Bakım Tablosu",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "BakiyeHesapBakMTAll",
+        "variantManagement": "control"
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "BakiyeHesapBakMTabl",
+        "tableType": "gridTable",
+        "selectionMode": "single",
+        "rowCountMode": "auto",
+        "frozenColumnCount": 2,
+        "creationModeName": "inlineCreationRows",
+        "createAtEnd": true,
+        "widthIncludingColumnHeader": true
+      }
+    ]
+  }
+}

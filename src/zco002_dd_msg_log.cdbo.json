@@ -1,0 +1,42 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Mesaj Log Tablosu",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZCO002_DD_MSG_LOG"
+  },
+  "fields": [
+    {
+      "name": "LOGUUID",
+      "nature": "general"
+    },
+    {
+      "name": "COSTCENTER",
+      "nature": "general"
+    },
+    {
+      "name": "ORDERID",
+      "nature": "general"
+    },
+    {
+      "name": "FISCALYEARPERIOD",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANYCODE",
+      "nature": "general"
+    },
+    {
+      "name": "MESSAGE",
+      "nature": "general"
+    },
+    {
+      "name": "CREATEDAT",
+      "nature": "general"
+    }
+  ]
+}
